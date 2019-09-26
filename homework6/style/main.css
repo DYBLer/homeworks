@@ -1,0 +1,54 @@
+
+tr {
+	height: 60px;
+	border: 8px solid #464646;
+}
+
+td {
+	width: 65px;
+	border: 8px solid #464646;
+}
+
+table 	{
+	border-collapse: collapse;
+	border: 12px solid #464646;
+	width: 	614px;
+	height: 749px;
+	margin: 0 auto;
+}
+
+.tr-2 {
+	height: 120px;
+}
+
+.tr-3 {
+	height: 100px;
+}
+
+.td-1 {
+	width: 90px;
+}
+
+.td-2 {
+	width: 160px;
+}
+
+.light-blue {
+	background-color: #f3f3f3;
+}
+
+.blue {
+	background-color: #0d7fbe;
+}
+
+.black {
+	background-color:#000000;
+}
+
+.yellow {
+	background-color:#fae317;
+}
+
+.red {
+	background-color:#f50f0f;
+}
