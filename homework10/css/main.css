@@ -1,0 +1,50 @@
+body{
+	height: 100vh;
+	width: 100vw;
+	background: #000;
+	color:#f4c900;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+
+#titles{
+	width:20em;
+	height:50em;
+	font-size: 350%;
+	text-align: justify;
+	position: absolute;
+	left:50%;
+	margin-left: -9em;
+	bottom: 0;
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(20deg);
+}
+#titles h1:nth-child(1){
+	text-align:center;
+}
+
+p{
+	margin-top: 30px;
+}
+
+embed{
+	opacity: 0;
+}
+
+
+#titlecontent{
+	position: absolute;
+	top:100%;
+	animation:starWars 30s linear  0s infinite;
+	pointer-events: none;
+}
+
+@keyframes starWars{
+	0%{
+		top:100%;
+	}
+	100%{
+		top:25%;
+	}
+}
