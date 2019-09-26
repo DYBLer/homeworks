@@ -1,0 +1,156 @@
+   .section{
+   		font-family: Verdana;
+  		background-color: #000101;
+    	background-image: url(../images/bi.png);
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	width: 100%;
+   		height: 100%;
+   }
+
+   body {
+   		margin: 0 auto;
+   }
+    
+    .main_content{
+    	width: 1366px;
+    	height: 768px;
+    	margin: 0 auto;
+    	
+    }
+
+    .logo {
+    	width: 350px;
+    	overflow: hidden;
+    }
+
+	.logo a	{
+		position: relative;
+		display: block;
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	a img {
+		width: 46px;
+		height: 44px;
+		position: relative;
+		margin-top: 49px;
+		margin-left: 100px;
+	}
+		
+	a h1 {
+		display: inline-block;
+		position: absolute;
+		margin-top: 42px;
+		margin-left: 0px;
+	}
+
+	a h3 {
+		display: inline-block;
+		position: relative;
+		margin-top: -20px;
+		margin-left: 0px;
+	}
+
+	.logo_hover {
+		position: relative;
+		margin-top:-116px;
+	}
+
+	.logo:hover  .logo_hover, .logo:hover a {
+		color: #f26522;
+		z-index: 1;
+	}
+
+	.contact_inform {
+		position: absolute;
+		color: #ffffff;
+		margin-left: 1065px;
+		margin-top: -35px;
+	}
+
+	.container {
+		position: relative;
+    	text-decoration: none;
+    	display: inline-block;
+    	margin-top: 15px;
+    	margin-bottom: 93px;
+    	margin-left: 60px;
+    	margin-right: 40px;
+    	padding-bottom: 15px;
+
+	}
+
+
+    ul li {
+    	margin-top: -10px;
+    	width: 308зpx;
+    	height: 200px;
+    	position: absolute;
+    	border: 3px solid transparent;
+     	-webkit-border-image: -webkit-linear-gradient(#b5b4b4 0%, #191919 100%);
+     	-o-border-image: -o-linear-gradient(#b5b4b4 0%, #191919 100%);
+     	border-image: linear-gradient(#b5b4b4 0%, #191919 100%);
+     	border-image-slice: 1;  
+     }
+
+    .text_inform {
+    	position: absolute;
+    	margin-top: 10px;
+    	width: 307px;
+    	text-align: center;
+    	color: #ffffff;
+    }
+
+ 	.popup { 
+		position: relative;
+		overflow: hidden;
+	}
+	
+ 
+    .hide {
+      	transition: 1s bottom;
+  		position: absolute;
+  		bottom: -63px;
+  		height: 63px;
+  		background-color: #f26522;
+ 		width: 100%;
+  		line-height: 40px;
+  		text-align: center;
+  		color: #ffffff;
+     }
+	
+	.container:hover .hide	{
+		bottom: 0;
+	}
+
+	.container:hover .text_inform {
+		color: #f26522;
+		transition: .1s;
+	}
+
+	 .hide_text_left {
+	 	line-height: 2;
+		position: absolute;
+		text-align: left;
+		margin-left: 15px;
+		margin-bottom: 40px; 
+	}
+
+	.hide_text_right {
+		position: relative;
+		margin-top: -40px;
+		margin-left: 145px;
+	}
+
+	footer {
+		position: relative;
+		text-align: center;
+		margin-top: -50px;
+		color: #ffffff;
+		font-size: 12px;
+	}
+
+
+
